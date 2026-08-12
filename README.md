@@ -4,7 +4,7 @@ This project is a full-stack application designed to simulate a real-time fraud 
 
 The system can identify and block potentially fraudulent transactions in real-time, providing a dashboard for administrators to monitor and manage transaction activities.
 
-## Application Walkthrough
+## How the Application Works
 
 ### Login and Role Selection
 
@@ -71,7 +71,7 @@ The screenshot below displays the real-time transaction feed interface where inc
 
 ![Approved Panel](frontend/src/images/accepted-panel.png)
 
-### 🚫 ML Investigation Panel (Blocked Scenario)
+### ML Investigation Panel (Blocked Scenario)
 
 - **Fraud Detection**: Shows why Transaction #18 (`CASH_OUT $3,480.00`) was marked as suspicious by the model.
 - **High Risk Score**: The transaction received a **99.99%** risk score, which is above the **50.00%** block limit. Because of this, the transaction was blocked.
